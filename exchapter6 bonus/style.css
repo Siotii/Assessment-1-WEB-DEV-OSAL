@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  section {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  input:focus {
+    border-color: #2980b9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+  }
+  
+  button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #totalCost {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* RGB Game Styling */
+  .rgb-game {
+    text-align: center;
+  }
+  
+  #rgbDisplay {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .color-box:hover {
+    transform: scale(1.05);
+  }
+  
+  #feedback {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  #score {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  #restart {
+    margin-top: 1rem;
+    display: none;
+  }
+  

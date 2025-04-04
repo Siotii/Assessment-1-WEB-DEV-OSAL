@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Loop Video</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ff5722;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .video-container {
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 10px;
+            max-width: 90%;
+        }
+
+        video {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔥 Firework Loop Video</h1>
+    <div class="video-container">
+        <video controls loop poster="firework.jpg">
+            <source src="loop.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
